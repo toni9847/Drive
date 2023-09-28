@@ -9,6 +9,22 @@ body {
   height: 100vh;
 }
 
+header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.content {
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+
 .menu {
   display: flex;
   flex-direction: column;
