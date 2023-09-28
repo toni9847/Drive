@@ -2,6 +2,10 @@ body {
   font-family: Arial, sans-serif;
   margin: 20px;
   padding: 20px;
+  background-image: url(https://firefly.adobe.com/public/t2i?id=urn:aaid:sc:US:a70666a2-21fe-45ab-996a-2547ec20a719);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #f2f2f2;
   display: flex;
   flex-direction: column;
   align-items: center;
