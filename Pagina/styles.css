@@ -3,6 +3,9 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f9f9f9;
+  background-image: url(Imagem.jpg);
+  background-size: cover;
+  background-position: center;
   color: #333;
 }
 
