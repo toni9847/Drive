@@ -1,93 +1,12 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url(/workspaces/Drive/Pagina/Imagem.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #333;
-}
-
-header {
-  background-color: #3498db;
-  color: #fff;
-  padding: 20px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.navbar {
-  display: flex;
-  align-items: center;
-}
-
-.menu-toggle {
-  display: none;
   flex-direction: column;
-  cursor: pointer;
-}
-
-.bar {
-  height: 3px;
-  width: 25px;
-  margin: 3px 0;
-  background-color: #424141;
-}
-
-.nav-links {
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.nav-links li {
-  margin: 0 20px;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-}
-
-.nav-links a:hover {
-  color: #2980b9;
-}
-
-nav {
-  background-color: #f2f2f2;
-  padding: 10px;
-  text-align: center;
-}
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-nav li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-nav a {
-  color: #3498db;
-  text-decoration: none;
-  transition: color 0.3s ease-in-out;
-}
-
-nav a:hover {
-  color: #2980b9;
-}
-
-.content {
-  padding: 20px;
-}
-
-h2 {
-  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 
