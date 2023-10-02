@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Controle de Portaria de Veículos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Controle de Portaria de Veículos</h1>
+
+    <form id="vehicleForm">
+      <label for="placa">Placa do Veículo:</label>
+      <input type="text" id="placa" required>
+
+      <label for="motorista">Motorista:</label>
+      <input type="text" id="motorista" required>
+
+      <label for="rota">Nome da Rota:</label>
+      <input type="text" id="rota" required>
+
+      <label for="horarioSaida">Horário de Saída:</label>
+      <input type="time" id="horarioSaida" required>
+
+      <label for="horarioChegada">Horário de Chegada:</label>
+      <input type="time" id="horarioChegada" required>
+
+      <label for="kmSaida">Km de Saída:</label>
+      <input type="number" id="kmSaida" required>
+
+      <label for="kmChegada">Km de Chegada:</label>
+      <input type="number" id="kmChegada" required>
+
+      <button type="submit">Registrar</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
