@@ -15,6 +15,15 @@ header {
   text-align: center;
 }
 
+article {
+  background-image: url(Imagem.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+  color: #333;
+
+}
+
 nav {
   background-color: #f2f2f2;
   padding: 10px;
