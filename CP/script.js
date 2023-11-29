@@ -15,10 +15,13 @@ document.getElementById('vehicleForm').addEventListener('submit', function(event
     horarioSaida: horarioSaida,
     kmSaida: kmSaida
   };
+  
 
   // Armazenar dados localmente (pode ser substituído por envio para um servidor)
   localStorage.setItem('currentVehicle', JSON.stringify(vehicleData));
 
+// Adicionar evento de clique no botão "Aberto"
+document.getElementById('abertoBtn').addEventListener('click', function() {
   // Redirecionar para a página do Kanban
   window.location.href = 'kanban.html';
-});
+})})
